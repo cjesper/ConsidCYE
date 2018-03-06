@@ -1,4 +1,9 @@
 #greetingHeader {
   font-size: 42px;
-  color: green
+  font-family: "Comic sans MS";
+  color: white; 
+}
+
+* {
+  font-family: "Comic sans MS";
 }
