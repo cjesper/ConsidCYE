@@ -1,22 +1,31 @@
 img {
-  height:200px;
-  width:100%;
+    height:200px;
+    width:100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 
 #imageRow {
-  max-height: 200px;
+    max-height: 200px;
 }
 
 #introRow {
-  background: white url('../media/vifolka.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height:250px;
+    background: white url('../media/vifolka.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:250px;
 }
 
-#senasteNytt {
-  border-style: dotted;
-  border-width: 2px;
-  border-color: black;
+#kitty {
+    height: 50%;
+    width: 50%;
 }
 
+#senasteBild {
+    border: 2px dotted black;
+}
+
+#schema {
+    border: 2px solid hotpink;
+}
